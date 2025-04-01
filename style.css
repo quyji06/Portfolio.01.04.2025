@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(91,35,35);
+    background: radial-gradient(circle, #87454f 0%, #ef9e9d 100%);
+    font-family: "Karla";
+}
+.container {
+    width: 1500px;
+    height: 800px;
+    padding: 20px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    border-radius: 10px; 
+    background-image: linear-gradient(to right, #663548 0%, #663548 0%, #663548 32%, #ef9e9d 52%, #ef9e9d 78%, #663548 100%);
+}
+.bg_image img{
+    height: 750px;
+    float: right;
+    border-radius: 10px;
+}
+.aside{
+    height: 100%;
+    width: 30%;
+    background-color: #663548;
+    float: left;
+    border-radius: 10px;
+}
